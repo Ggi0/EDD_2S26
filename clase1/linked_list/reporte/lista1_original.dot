@@ -1,0 +1,20 @@
+digraph ListaEnlazada {
+    rankdir=LR;
+    node [shape=record, fontname="Helvetica"];
+    edge [fontname="Helvetica"];
+
+    cabeza [shape=point];
+    cabeza -> nodo0;
+
+    nodo0 [label="{ 50 | <sig> * }"];
+    nodo0:sig -> nodo1;
+    nodo1 [label="{ 40 | <sig> * }"];
+    nodo1:sig -> nodo2;
+    nodo2 [label="{ 30 | <sig> * }"];
+    nodo2:sig -> nodo3;
+    nodo3 [label="{ 20 | <sig> * }"];
+    nodo3:sig -> nodo4;
+    nodo4 [label="{ 10 | <sig> * }"];
+    null4 [label="NULL", shape=plaintext];
+    nodo4:sig -> null4;
+}
