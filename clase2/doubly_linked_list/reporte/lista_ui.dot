@@ -1,0 +1,23 @@
+digraph ListaDoble {
+    rankdir=LR;
+    node [shape=record, fontname="Helvetica"];
+    edge [fontname="Helvetica"];
+
+    cabeza [shape=point];
+    cabeza -> nodo0;
+
+    nodo0 [label="{ <ant> * | ID 2\ntitanic | <sig> * }"];
+    nodo0:sig -> nodo1:ant;
+    nullAnt0 [label="NULL", shape=plaintext];
+    nodo0:ant -> nullAnt0 [color=blue];
+    nodo1 [label="{ <ant> * | ID 18\nbatman | <sig> * }"];
+    nodo1:sig -> nodo2:ant;
+    nodo1:ant -> nodo0:sig [color=blue, constraint=false];
+    nodo2 [label="{ <ant> * | ID 20\navatar | <sig> * }"];
+    nodo2:sig -> nodo3:ant;
+    nodo2:ant -> nodo1:sig [color=blue, constraint=false];
+    nodo3 [label="{ <ant> * | ID 45\npelicula | <sig> * }"];
+    nullSig3 [label="NULL", shape=plaintext];
+    nodo3:sig -> nullSig3;
+    nodo3:ant -> nodo2:sig [color=blue, constraint=false];
+}

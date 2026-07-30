@@ -1,0 +1,32 @@
+digraph ListaDoble {
+    rankdir=LR;
+    node [shape=record, fontname="Helvetica"];
+    edge [fontname="Helvetica"];
+
+    cabeza [shape=point];
+    cabeza -> nodo0;
+
+    nodo0 [label="{ <ant> * | ID 1\nMatrix | <sig> * }"];
+    nodo0:sig -> nodo1:ant;
+    nullAnt0 [label="NULL", shape=plaintext];
+    nodo0:ant -> nullAnt0 [color=blue];
+    nodo1 [label="{ <ant> * | ID 3\nEl Padrino | <sig> * }"];
+    nodo1:sig -> nodo2:ant;
+    nodo1:ant -> nodo0:sig [color=blue, constraint=false];
+    nodo2 [label="{ <ant> * | ID 8\nWhiplash | <sig> * }"];
+    nodo2:sig -> nodo3:ant;
+    nodo2:ant -> nodo1:sig [color=blue, constraint=false];
+    nodo3 [label="{ <ant> * | ID 11\nAmelie | <sig> * }"];
+    nodo3:sig -> nodo4:ant;
+    nodo3:ant -> nodo2:sig [color=blue, constraint=false];
+    nodo4 [label="{ <ant> * | ID 15\nInterstellar | <sig> * }"];
+    nodo4:sig -> nodo5:ant;
+    nodo4:ant -> nodo3:sig [color=blue, constraint=false];
+    nodo5 [label="{ <ant> * | ID 19\nParasite | <sig> * }"];
+    nodo5:sig -> nodo6:ant;
+    nodo5:ant -> nodo4:sig [color=blue, constraint=false];
+    nodo6 [label="{ <ant> * | ID 22\nCoco | <sig> * }"];
+    nullSig6 [label="NULL", shape=plaintext];
+    nodo6:sig -> nullSig6;
+    nodo6:ant -> nodo5:sig [color=blue, constraint=false];
+}
