@@ -1,0 +1,55 @@
+digraph ListaCircular {
+    rankdir=TB;
+    node [fontname="Helvetica"];
+    edge [fontname="Helvetica"];
+
+    { rank=same;
+        cantante0 [shape=box, style="rounded,filled", fillcolor="#A8E6B0", label="ID 1\nBad Bunny"];
+        cantante1 [shape=box, style="rounded,filled", fillcolor="#A8E6B0", label="ID 2\nDaft Punk"];
+        cantante2 [shape=box, style="rounded,filled", fillcolor="#A8E6B0", label="ID 3\nAdele"];
+        cantante3 [shape=box, style="rounded,filled", fillcolor="#A8E6B0", label="ID 4\nMetallica"];
+        cantante4 [shape=box, style="rounded,filled", fillcolor="#A8E6B0", label="ID 5\nCantante5"];
+    }
+
+    cabezaPtr [shape=point];
+    cabezaPtr -> cantante0;
+
+    cantante0 -> cantante1 [color="#2E8B57", penwidth=2];
+    cantante1 -> cantante2 [color="#2E8B57", penwidth=2];
+    cantante2 -> cantante3 [color="#2E8B57", penwidth=2];
+    cantante3 -> cantante4 [color="#2E8B57", penwidth=2];
+    cantante4 -> cantante0 [color="#2E8B57", penwidth=2, constraint=false];
+
+    cantante0 -> c0_cancionvacia [style=dashed, color="#555555"];
+    c0_cancionvacia [label="(sin canciones)", shape=plaintext, fontname="Helvetica"];
+    cantante1 -> c1_cancion0:ant [style=dashed, color="#555555"];
+    subgraph cluster_c1_cancion {
+        style=invis;
+        c1_cancion0 [shape=record, style=filled, fillcolor="#FFE29A", fontname="Helvetica", label="ID 201\nOne More Time"];
+        c1_cancion1 [shape=record, style=filled, fillcolor="#FFE29A", fontname="Helvetica", label="ID 202\nHarder Better Faster Stronger"];
+        c1_cancion2 [shape=record, style=filled, fillcolor="#FFE29A", fontname="Helvetica", label="ID 203\nGet Lucky"];
+        c1_cancionnullSig [label="NULL", shape=plaintext, fontname="Helvetica"];
+        c1_cancion0 -> c1_cancion1 [dir=both, color="#B8860B"];
+        c1_cancion1 -> c1_cancion2 [dir=both, color="#B8860B"];
+        c1_cancion2 -> c1_cancionnullSig [color=blue];
+    }
+    cantante2 -> c2_cancion0:ant [style=dashed, color="#555555"];
+    subgraph cluster_c2_cancion {
+        style=invis;
+        c2_cancion0 [shape=record, style=filled, fillcolor="#FFE29A", fontname="Helvetica", label="ID 301\nSomeone Like You"];
+        c2_cancion1 [shape=record, style=filled, fillcolor="#FFE29A", fontname="Helvetica", label="ID 302\nSomeone Like You"];
+        c2_cancion2 [shape=record, style=filled, fillcolor="#FFE29A", fontname="Helvetica", label="ID 303\nSomeone Like You"];
+        c2_cancion3 [shape=record, style=filled, fillcolor="#FFE29A", fontname="Helvetica", label="ID 304\nSomeone Like You"];
+        c2_cancion4 [shape=record, style=filled, fillcolor="#FFE29A", fontname="Helvetica", label="ID 305\nSomeone Like You"];
+        c2_cancionnullSig [label="NULL", shape=plaintext, fontname="Helvetica"];
+        c2_cancion0 -> c2_cancion1 [dir=both, color="#B8860B"];
+        c2_cancion1 -> c2_cancion2 [dir=both, color="#B8860B"];
+        c2_cancion2 -> c2_cancion3 [dir=both, color="#B8860B"];
+        c2_cancion3 -> c2_cancion4 [dir=both, color="#B8860B"];
+        c2_cancion4 -> c2_cancionnullSig [color=blue];
+    }
+    cantante3 -> c3_cancionvacia [style=dashed, color="#555555"];
+    c3_cancionvacia [label="(sin canciones)", shape=plaintext, fontname="Helvetica"];
+    cantante4 -> c4_cancionvacia [style=dashed, color="#555555"];
+    c4_cancionvacia [label="(sin canciones)", shape=plaintext, fontname="Helvetica"];
+}

@@ -1,0 +1,17 @@
+digraph ListaCircular {
+    rankdir=TB;
+    node [fontname="Helvetica"];
+    edge [fontname="Helvetica"];
+
+    { rank=same;
+        cantante0 [shape=box, style="rounded,filled", fillcolor="#A8E6B0", label="ID 1\ngio"];
+    }
+
+    cabezaPtr [shape=point];
+    cabezaPtr -> cantante0;
+
+    cantante0 -> cantante0 [color="#2E8B57", penwidth=2, constraint=false];
+
+    cantante0 -> c0_cancionvacia [style=dashed, color="#555555"];
+    c0_cancionvacia [label="(sin canciones)", shape=plaintext, fontname="Helvetica"];
+}
