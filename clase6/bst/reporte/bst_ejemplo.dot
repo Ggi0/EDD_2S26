@@ -1,0 +1,22 @@
+digraph BST {
+    rankdir=TB;
+    node [fontname="Helvetica"];
+    edge [fontname="Helvetica"];
+
+    nodo0 [shape=circle, style="filled", fillcolor="#A8E6B0", label="50"];
+    nodo1 [shape=circle, style="filled", fillcolor="#A8E6B0", label="40"];
+    nodo2 [shape=circle, style="filled", fillcolor="#A8E6B0", label="25"];
+    nodo1 -> nodo2 [color="#2E8B57", label="I"];
+    nodo0 -> nodo1 [color="#2E8B57", label="I"];
+    nodo3 [shape=circle, style="filled", fillcolor="#A8E6B0", label="70"];
+    nodo4 [shape=circle, style="filled", fillcolor="#A8E6B0", label="60"];
+    nodo5 [shape=circle, style="filled", fillcolor="#A8E6B0", label="65"];
+    nodo4 -> nodo5 [color="#2E8B57", label="D"];
+    nodo3 -> nodo4 [color="#2E8B57", label="I"];
+    nodo6 [shape=circle, style="filled", fillcolor="#A8E6B0", label="80"];
+    nodo3 -> nodo6 [color="#2E8B57", label="D"];
+    nodo0 -> nodo3 [color="#2E8B57", label="D"];
+
+    raizPtr [shape=point];
+    raizPtr -> nodo0;
+}
