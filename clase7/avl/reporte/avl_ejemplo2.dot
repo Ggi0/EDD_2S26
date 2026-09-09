@@ -1,0 +1,14 @@
+digraph AVL {
+    rankdir=TB;
+    node [fontname="Helvetica"];
+    edge [fontname="Helvetica"];
+
+    nodo0 [shape=circle, style="filled", fillcolor="#A8C8E6", label="75\nh=1 fb=0"];
+    nodo1 [shape=circle, style="filled", fillcolor="#A8C8E6", label="50\nh=0 fb=0"];
+    nodo0 -> nodo1 [color="#2E5A8B", label="I"];
+    nodo2 [shape=circle, style="filled", fillcolor="#A8C8E6", label="80\nh=0 fb=0"];
+    nodo0 -> nodo2 [color="#2E5A8B", label="D"];
+
+    raizPtr [shape=point];
+    raizPtr -> nodo0;
+}

@@ -1,0 +1,32 @@
+digraph AVL {
+    rankdir=TB;
+    node [fontname="Helvetica"];
+    edge [fontname="Helvetica"];
+
+    nodo0 [shape=circle, style="filled", fillcolor="#A8C8E6", label="50\nh=4 fb=-1"];
+    nodo1 [shape=circle, style="filled", fillcolor="#A8C8E6", label="25\nh=2 fb=1"];
+    nodo2 [shape=circle, style="filled", fillcolor="#A8C8E6", label="15\nh=1 fb=1"];
+    nodo3 [shape=circle, style="filled", fillcolor="#A8C8E6", label="5\nh=0 fb=0"];
+    nodo2 -> nodo3 [color="#2E5A8B", label="I"];
+    nodo1 -> nodo2 [color="#2E5A8B", label="I"];
+    nodo4 [shape=circle, style="filled", fillcolor="#A8C8E6", label="40\nh=0 fb=0"];
+    nodo1 -> nodo4 [color="#2E5A8B", label="D"];
+    nodo0 -> nodo1 [color="#2E5A8B", label="I"];
+    nodo5 [shape=circle, style="filled", fillcolor="#A8C8E6", label="70\nh=3 fb=-1"];
+    nodo6 [shape=circle, style="filled", fillcolor="#A8C8E6", label="60\nh=1 fb=-1"];
+    nodo7 [shape=circle, style="filled", fillcolor="#A8C8E6", label="65\nh=0 fb=0"];
+    nodo6 -> nodo7 [color="#2E5A8B", label="D"];
+    nodo5 -> nodo6 [color="#2E5A8B", label="I"];
+    nodo8 [shape=circle, style="filled", fillcolor="#A8C8E6", label="85\nh=2 fb=-1"];
+    nodo9 [shape=circle, style="filled", fillcolor="#A8C8E6", label="80\nh=0 fb=0"];
+    nodo8 -> nodo9 [color="#2E5A8B", label="I"];
+    nodo10 [shape=circle, style="filled", fillcolor="#A8C8E6", label="90\nh=1 fb=-1"];
+    nodo11 [shape=circle, style="filled", fillcolor="#A8C8E6", label="95\nh=0 fb=0"];
+    nodo10 -> nodo11 [color="#2E5A8B", label="D"];
+    nodo8 -> nodo10 [color="#2E5A8B", label="D"];
+    nodo5 -> nodo8 [color="#2E5A8B", label="D"];
+    nodo0 -> nodo5 [color="#2E5A8B", label="D"];
+
+    raizPtr [shape=point];
+    raizPtr -> nodo0;
+}
