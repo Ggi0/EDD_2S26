@@ -1,0 +1,32 @@
+digraph TablaHash {
+    rankdir=LR;
+    node [fontname="Helvetica"];
+    edge [fontname="Helvetica"];
+
+    bucket0 [shape=box, style=filled, fillcolor="#D9D9D9", label="Bucket 0"];
+    bucket1 [shape=box, style=filled, fillcolor="#D9D9D9", label="Bucket 1"];
+    n1_0 [shape=ellipse, style=filled, fillcolor="#A8C8E6", label="P-456XYZ\nMaria Lopez"];
+    bucket1 -> n1_0;
+    bucket2 [shape=box, style=filled, fillcolor="#D9D9D9", label="Bucket 2"];
+    bucket3 [shape=box, style=filled, fillcolor="#D9D9D9", label="Bucket 3"];
+    n3_0 [shape=ellipse, style=filled, fillcolor="#F4A261", label="P-222BBB\nKarla Rojas"];
+    bucket3 -> n3_0;
+    n3_1 [shape=ellipse, style=filled, fillcolor="#F4A261", label="P-987OPQ\nSofia Castillo"];
+    n3_0 -> n3_1 [label="siguiente"];
+    n3_2 [shape=ellipse, style=filled, fillcolor="#A8C8E6", label="P-321ABC\nAna Gutierrez"];
+    n3_1 -> n3_2 [label="siguiente"];
+    bucket4 [shape=box, style=filled, fillcolor="#D9D9D9", label="Bucket 4"];
+    bucket5 [shape=box, style=filled, fillcolor="#D9D9D9", label="Bucket 5"];
+    n5_0 [shape=ellipse, style=filled, fillcolor="#A8C8E6", label="P-654LMN\nLuis Fernandez"];
+    bucket5 -> n5_0;
+    bucket6 [shape=box, style=filled, fillcolor="#D9D9D9", label="Bucket 6"];
+    n6_0 [shape=ellipse, style=filled, fillcolor="#A8C8E6", label="P-123BCD\nCarlos Perez"];
+    bucket6 -> n6_0;
+    bucket7 [shape=box, style=filled, fillcolor="#D9D9D9", label="Bucket 7"];
+    n7_0 [shape=ellipse, style=filled, fillcolor="#A8C8E6", label="P-111AAA\nPedro Morales"];
+    bucket7 -> n7_0;
+    bucket8 [shape=box, style=filled, fillcolor="#D9D9D9", label="Bucket 8"];
+    bucket9 [shape=box, style=filled, fillcolor="#D9D9D9", label="Bucket 9"];
+    n9_0 [shape=ellipse, style=filled, fillcolor="#A8C8E6", label="P-789QRS\nJose Ramirez"];
+    bucket9 -> n9_0;
+}
