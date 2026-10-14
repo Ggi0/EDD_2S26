@@ -1,0 +1,3 @@
+/Users/gio/Desktop/pr_finales/edd_2S26/contenido/repo_interno/clase10/backend/build/CMakeFiles/backend.dir
+/Users/gio/Desktop/pr_finales/edd_2S26/contenido/repo_interno/clase10/backend/build/CMakeFiles/edit_cache.dir
+/Users/gio/Desktop/pr_finales/edd_2S26/contenido/repo_interno/clase10/backend/build/CMakeFiles/rebuild_cache.dir
