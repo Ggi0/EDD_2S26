@@ -1,0 +1,987 @@
+{
+    "sedes": [
+        {
+            "codigo": "S001",
+            "nombre": "CinemaUSAC Zona 10",
+            "direccion": "Zona 10, Ciudad de Guatemala",
+            "cantidad_salas": 3,
+            "telefono": "1122-3301"
+        },
+        {
+            "codigo": "S002",
+            "nombre": "CinemaUSAC Zona 18",
+            "direccion": "Zona 18, Ciudad de Guatemala",
+            "cantidad_salas": 10,
+            "telefono": "1122-3302"
+        },
+        {
+            "codigo": "S003",
+            "nombre": "CinemaUSAC Zona 4",
+            "direccion": "Zona 4, Ciudad de Guatemala",
+            "cantidad_salas": 5,
+            "telefono": "1122-3303"
+        },
+        {
+            "codigo": "S004",
+            "nombre": "CinemaUSAC Mixco",
+            "direccion": "Mixco, Guatemala",
+            "cantidad_salas": 8,
+            "telefono": "1122-3304"
+        },
+        {
+            "codigo": "S005",
+            "nombre": "CinemaUSAC Villa Nueva",
+            "direccion": "Villa Nueva, Guatemala",
+            "cantidad_salas": 6,
+            "telefono": "1122-3305"
+        },
+        {
+            "codigo": "S006",
+            "nombre": "CinemaUSAC San Cristóbal",
+            "direccion": "Ciudad San Cristóbal, Mixco",
+            "cantidad_salas": 4,
+            "telefono": "1122-3306"
+        },
+        {
+            "codigo": "S007",
+            "nombre": "CinemaUSAC Cayalá",
+            "direccion": "Ciudad Cayalá, Zona 16",
+            "cantidad_salas": 12,
+            "telefono": "1122-3407"
+        },
+        {
+            "codigo": "S008",
+            "nombre": "CinemaUSAC Roosevelt",
+            "direccion": "Calzada Roosevelt, Guatemala",
+            "cantidad_salas": 7,
+            "telefono": "1122-3408"
+        },
+        {
+            "codigo": "S009",
+            "nombre": "CinemaUSAC Amatitlán",
+            "direccion": "Amatitlán, Guatemala",
+            "cantidad_salas": 3,
+            "telefono": "1122-3409"
+        },
+        {
+            "codigo": "S010",
+            "nombre": "CinemaUSAC Antigua",
+            "direccion": "Antigua Guatemala, Sacatepéquez",
+            "cantidad_salas": 5,
+            "telefono": "1122-3410"
+        },
+        {
+            "codigo": "S011",
+            "nombre": "CinemaUSAC Escuintla",
+            "direccion": "Escuintla, Guatemala",
+            "cantidad_salas": 9,
+            "telefono": "1122-3411"
+        },
+        {
+            "codigo": "S012",
+            "nombre": "CinemaUSAC Quetzaltenango",
+            "direccion": "Quetzaltenango, Guatemala",
+            "cantidad_salas": 11,
+            "telefono": "1122-3412"
+        },
+        {
+            "codigo": "S013",
+            "nombre": "CinemaUSAC Peten",
+            "direccion": "Flores PEten, Guatemala",
+            "cantidad_salas": 11,
+            "telefono": "1122-3413"
+        },
+        {
+            "codigo": "S014",
+            "nombre": "CinemaUSAC San Marcos",
+            "direccion": "San Marcos, Guatemala",
+            "cantidad_salas": 11,
+            "telefono": "1122-3414"
+        },
+        {
+            "codigo": "S015",
+            "nombre": "CinemaUSAC San Jose",
+            "direccion": "Sna Jose, Guatemala",
+            "cantidad_salas": 11,
+            "telefono": "1122-3415"
+        }
+    ],
+    "peliculas": [
+        {
+            "codigo": "P078",
+            "titulo": "El Ultimo Asalto",
+            "genero": "Acción",
+            "duracion": 135,
+            "clasificacion": "B15",
+            "idioma": "Subtitulada",
+            "fecha_estreno": "2026-10-02",
+            "fecha_fin": "2026-12-28",
+            "funciones": [
+                {
+                    "codigo_funcion": "F001",
+                    "fecha": "2026-11-05",
+                    "horario": "11:00",
+                    "sede": "S001",
+                    "sala": "Sala 1",
+                    "filas": 10,
+                    "columnas": 20,
+                    "archivo_asientos": ""
+                },
+                {
+                    "codigo_funcion": "F002",
+                    "fecha": "2026-11-02",
+                    "horario": "14:00",
+                    "sede": "S009",
+                    "sala": "Sala 2",
+                    "filas": 10,
+                    "columnas": 20,
+                    "archivo_asientos": ""
+                }
+            ]
+        },
+        {
+            "codigo": "P112",
+            "titulo": "Risas de Domingo",
+            "genero": "Comedia",
+            "duracion": 105,
+            "clasificacion": "A",
+            "idioma": "Español",
+            "fecha_estreno": "2026-10-02",
+            "fecha_fin": "2026-12-28",
+            "funciones": [
+                {
+                    "codigo_funcion": "F003",
+                    "fecha": "2026-10-30",
+                    "horario": "17:00",
+                    "sede": "S001",
+                    "sala": "Sala 3",
+                    "filas": 12,
+                    "columnas": 18,
+                    "archivo_asientos": ""
+                },
+                {
+                    "codigo_funcion": "F004",
+                    "fecha": "2026-10-31",
+                    "horario": "20:00",
+                    "sede": "S012",
+                    "sala": "Sala 4",
+                    "filas": 12,
+                    "columnas": 18,
+                    "archivo_asientos": ""
+                },
+                {
+                    "codigo_funcion": "F005",
+                    "fecha": "2026-11-06",
+                    "horario": "16:00",
+                    "sede": "S009",
+                    "sala": "Sala 1",
+                    "filas": 15,
+                    "columnas": 20,
+                    "archivo_asientos": ""
+                }
+            ]
+        },
+        {
+            "codigo": "P005",
+            "titulo": "Sombras en la Noche",
+            "genero": "Terror",
+            "duracion": 118,
+            "clasificacion": "C",
+            "idioma": "Subtitulada",
+            "fecha_estreno": "2026-10-02",
+           "fecha_fin": "2026-12-28",
+            "funciones": [
+                {
+                    "codigo_funcion": "F006",
+                    "fecha": "2026-11-16",
+                    "horario": "19:30",
+                    "sede": "S001",
+                    "sala": "Sala 2",
+                    "filas": 15,
+                    "columnas": 20,
+                    "archivo_asientos": ""
+                },
+                {
+                    "codigo_funcion": "F006",
+                    "fecha": "2026-11-06",
+                    "horario": "20:30",
+                    "sede": "S003",
+                    "sala": "Sala 8",
+                    "filas": 7,
+                    "columnas": 9,
+                    "archivo_asientos": ""
+                }
+            ]
+        },
+        {
+            "codigo": "P089",
+            "titulo": "Un Lugar Para Nosotros",
+            "genero": "Drama",
+            "duracion": 127,
+            "clasificacion": "B15",
+            "idioma": "Doblada",
+            "fecha_estreno": "2026-10-02",
+            "fecha_fin": "2026-12-28",
+            "funciones": [
+                {
+                    "codigo_funcion": "F201",
+                    "fecha": "2026-10-25",
+                    "horario": "14:00",
+                    "sede": "S001",
+                    "sala": "Sala 1",
+                    "filas": 10,
+                    "columnas": 20,
+                    "archivo_asientos": ""
+                },
+                {
+                    "codigo_funcion": "F202",
+                    "fecha": "2026-10-25",
+                    "horario": "18:00",
+                    "sede": "S007",
+                    "sala": "Sala 2",
+                    "filas": 12,
+                    "columnas": 18,
+                    "archivo_asientos": ""
+                },
+                {
+                    "codigo_funcion": "F203",
+                    "fecha": "2026-10-26",
+                    "horario": "16:30",
+                    "sede": "S005",
+                    "sala": "Sala 1",
+                    "filas": 15,
+                    "columnas": 20,
+                    "archivo_asientos": ""
+                }
+            ]
+        },
+        {
+            "codigo": "P064",
+            "titulo": "Galaxia Perdida",
+            "genero": "Ciencia Ficción",
+            "duracion": 142,
+            "clasificacion": "B15",
+            "idioma": "Subtitulada",
+            "fecha_estreno": "2026-10-02",
+            "fecha_fin": "2026-12-28",
+            "funciones": [
+                {
+                    "codigo_funcion": "F204",
+                    "fecha": "2026-10-27",
+                    "horario": "20:00",
+                    "sede": "S015",
+                    "sala": "Sala 3",
+                    "filas": 10,
+                    "columnas": 22,
+                    "archivo_asientos": ""
+                },
+                {
+                    "codigo_funcion": "F205",
+                    "fecha": "2026-10-28",
+                    "horario": "15:00",
+                    "sede": "S004",
+                    "sala": "Sala 4",
+                    "filas": 12,
+                    "columnas": 20,
+                    "archivo_asientos": ""
+                },
+                {
+                    "codigo_funcion": "F206",
+                    "fecha": "2026-10-29",
+                    "horario": "19:30",
+                    "sede": "S005",
+                    "sala": "Sala 2",
+                    "filas": 14,
+                    "columnas": 18,
+                    "archivo_asientos": ""
+                }
+            ]
+        },
+        {
+            "codigo": "P021",
+            "titulo": "La Aventura de Max",
+            "genero": "Animación",
+            "duracion": 96,
+            "clasificacion": "AA",
+            "idioma": "Español",
+            "fecha_estreno": "2026-10-02",
+            "fecha_fin": "2026-12-28",
+            "funciones": [
+                {
+                    "codigo_funcion": "F207",
+                    "fecha": "2026-10-30",
+                    "horario": "17:00",
+                    "sede": "S006",
+                    "sala": "Sala 5",
+                    "filas": 10,
+                    "columnas": 20,
+                    "archivo_asientos": ""
+                },
+                {
+                    "codigo_funcion": "F208",
+                    "fecha": "2026-11-01",
+                    "horario": "13:00",
+                    "sede": "S012",
+                    "sala": "Sala 1",
+                    "filas": 16,
+                    "columnas": 22,
+                    "archivo_asientos": ""
+                },
+                {
+                    "codigo_funcion": "F209",
+                    "fecha": "2026-11-03",
+                    "horario": "18:30",
+                    "sede": "S009",
+                    "sala": "Sala 3",
+                    "filas": 12,
+                    "columnas": 18,
+                    "archivo_asientos": ""
+                }
+            ]
+        },
+        {
+            "codigo": "P128",
+            "titulo": "Código de Guerra",
+            "genero": "Acción",
+            "duracion": 129,
+            "clasificacion": "C",
+            "idioma": "Doblada",
+            "fecha_estreno": "2026-10-02",
+            "fecha_fin": "2026-12-28",
+            "funciones": [
+                {
+                    "codigo_funcion": "F210",
+                    "fecha": "2026-11-05",
+                    "horario": "22:00",
+                    "sede": "S006",
+                    "sala": "Sala 2",
+                    "filas": 10,
+                    "columnas": 8,
+                    "archivo_asientos": ""
+                },
+                {
+                    "codigo_funcion": "F210",
+                    "fecha": "2026-11-06",
+                    "horario": "21:00",
+                    "sede": "S004",
+                    "sala": "Sala 82",
+                    "filas": 11,
+                    "columnas": 7,
+                    "archivo_asientos": ""
+                }
+            ]
+        },
+        {
+            "codigo": "P046",
+            "titulo": "Amor en la Ciudad",
+            "genero": "Drama",
+            "duracion": 121,
+            "clasificacion": "B15",
+            "idioma": "Español",
+            "fecha_estreno": "2026-10-02",
+            "fecha_fin": "2026-12-28",
+            "funciones": [
+                {
+                    "codigo_funcion": "F301",
+                    "fecha": "2026-10-25",
+                    "horario": "14:00",
+                    "sede": "S005",
+                    "sala": "Sala 1",
+                    "filas": 10,
+                    "columnas": 20,
+                    "archivo_asientos": ""
+                },
+                {
+                    "codigo_funcion": "F302",
+                    "fecha": "2026-10-25",
+                    "horario": "18:30",
+                    "sede": "S007",
+                    "sala": "Sala 2",
+                    "filas": 12,
+                    "columnas": 18,
+                    "archivo_asientos": ""
+                }
+            ]
+        },
+        {
+            "codigo": "P011",
+            "titulo": "Chucky 23",
+            "genero": "Terror",
+            "duracion": 110,
+            "clasificacion": "C",
+            "idioma": "Subtitulada",
+            "fecha_estreno": "2026-10-02",
+            "fecha_fin": "2026-12-28",
+            "funciones": [
+                {
+                    "codigo_funcion": "F303",
+                    "fecha": "2026-10-26",
+                    "horario": "16:00",
+                    "sede": "S004",
+                    "sala": "Sala 1",
+                    "filas": 14,
+                    "columnas": 20,
+                    "archivo_asientos": ""
+                },
+                {
+                    "codigo_funcion": "F304",
+                    "fecha": "2026-10-27",
+                    "horario": "20:00",
+                    "sede": "S005",
+                    "sala": "Sala 3",
+                    "filas": 10,
+                    "columnas": 22,
+                    "archivo_asientos": ""
+                }
+            ]
+        },
+        {
+            "codigo": "P072",
+            "titulo": "Va fallar, por la fecha incorrecta",
+            "genero": "Comedia",
+            "duracion": 102,
+            "clasificacion": "A",
+            "idioma": "Doblada",
+            "fecha_estreno": "2026-10-02",
+            "fecha_fin": "2026-12-28",
+            "funciones": [
+                {
+                    "codigo_funcion": "F305",
+                    "fecha": "2026-10-28",
+                    "horario": "15:30",
+                    "sede": "S011",
+                    "sala": "Sala 1",
+                    "filas": 16,
+                    "columnas": 20,
+                    "archivo_asientos": ""
+                },
+                {
+                    "codigo_funcion": "F306",
+                    "fecha": "2026-10-29",
+                    "horario": "19:00",
+                    "sede": "S008",
+                    "sala": "Sala 4",
+                    "filas": 12,
+                    "columnas": 18,
+                    "archivo_asientos": ""
+                }
+            ]
+        },
+        {
+            "codigo": "P002",
+            "titulo": "Mundos Paralelos",
+            "genero": "Ciencia Ficción",
+            "duracion": 150,
+            "clasificacion": "B15",
+            "idioma": "Subtitulada",
+            "fecha_estreno": "2026-10-02",
+            "fecha_fin": "2026-12-28",
+            "funciones": [
+                {
+                    "codigo_funcion": "F307",
+                    "fecha": "2026-10-30",
+                    "horario": "17:00",
+                    "sede": "S008",
+                    "sala": "Sala 2",
+                    "filas": 14,
+                    "columnas": 18,
+                    "archivo_asientos": ""
+                },
+                {
+                    "codigo_funcion": "F308",
+                    "fecha": "2026-11-01",
+                    "horario": "13:00",
+                    "sede": "S003",
+                    "sala": "Sala 5",
+                    "filas": 10,
+                    "columnas": 20,
+                    "archivo_asientos": ""
+                }
+            ]
+        },
+        {
+            "codigo": "P101",
+            "titulo": "El Reino Perdido",
+            "genero": "Aventura",
+            "duracion": 138,
+            "clasificacion": "AA",
+            "idioma": "Español",
+            "fecha_estreno": "2026-10-02",
+            "fecha_fin": "2026-12-28",
+            "funciones": [
+                {
+                    "codigo_funcion": "F309",
+                    "fecha": "2026-11-03",
+                    "horario": "18:00",
+                    "sede": "S012",
+                    "sala": "Sala 2",
+                    "filas": 16,
+                    "columnas": 22,
+                    "archivo_asientos": ""
+                },
+                {
+                    "codigo_funcion": "F310",
+                    "fecha": "2026-11-05",
+                    "horario": "21:00",
+                    "sede": "S009",
+                    "sala": "Sala 3",
+                    "filas": 12,
+                    "columnas": 20,
+                    "archivo_asientos": ""
+                }
+            ]
+        },
+        {
+            "codigo": "P009",
+            "titulo": "Noche de Pesadilla",
+            "genero": "Terror",
+            "duracion": 124,
+            "clasificacion": "C",
+            "idioma": "Subtitulada",
+            "fecha_estreno": "2026-10-02",
+            "fecha_fin": "2026-12-28",
+            "funciones": [
+                {
+                    "codigo_funcion": "F401",
+                    "fecha": "2026-10-29",
+                    "horario": "18:00",
+                    "sede": "S012",
+                    "sala": "Sala 1",
+                    "filas": 10,
+                    "columnas": 20,
+                    "archivo_asientos": ""
+                },
+                {
+                    "codigo_funcion": "F402",
+                    "fecha": "2026-11-02",
+                    "horario": "20:30",
+                    "sede": "S009",
+                    "sala": "Sala 2",
+                    "filas": 12,
+                    "columnas": 18,
+                    "archivo_asientos": ""
+                }
+            ]
+        },
+        {
+            "codigo": "P056",
+            "titulo": "Toy Story 5",
+            "genero": "Animación",
+            "duracion": 98,
+            "clasificacion": "A",
+            "idioma": "Español",
+            "fecha_estreno": "2026-10-02",
+            "fecha_fin": "2026-12-28",
+            "funciones": [
+                {
+                    "codigo_funcion": "F403",
+                    "fecha": "2026-11-08",
+                    "horario": "19:00",
+                    "sede": "S003",
+                    "sala": "Sala 1",
+                    "filas": 14,
+                    "columnas": 20,
+                    "archivo_asientos": ""
+                },
+                {
+                    "codigo_funcion": "F404",
+                    "fecha": "2026-11-12",
+                    "horario": "21:00",
+                    "sede": "S008",
+                    "sala": "Sala 3",
+                    "filas": 10,
+                    "columnas": 22,
+                    "archivo_asientos": ""
+                }
+            ]
+        },
+        {
+            "codigo": "P119",
+            "titulo": "Horizonte Final",
+            "genero": "Ciencia Ficción",
+            "duracion": 146,
+            "clasificacion": "B15",
+            "idioma": "Doblada",
+            "fecha_estreno": "2026-10-02",
+            "fecha_fin": "2026-12-28",
+            "funciones": [
+                {
+                    "codigo_funcion": "F405",
+                    "fecha": "2026-11-18",
+                    "horario": "17:30",
+                    "sede": "S010",
+                    "sala": "Sala 2",
+                    "filas": 16,
+                    "columnas": 20,
+                    "archivo_asientos": ""
+                },
+                {
+                    "codigo_funcion": "F406",
+                    "fecha": "2026-11-24",
+                    "horario": "20:00",
+                    "sede": "S014",
+                    "sala": "Sala 4",
+                    "filas": 12,
+                    "columnas": 18,
+                    "archivo_asientos": ""
+                },
+                {
+                    "codigo_funcion": "F407",
+                    "fecha": "2026-12-01",
+                    "horario": "19:30",
+                    "sede": "S011",
+                    "sala": "Sala 3",
+                    "filas": 14,
+                    "columnas": 18,
+                    "archivo_asientos": ""
+                }
+            ]
+        },
+        {
+            "codigo": "P090",
+            "titulo": "Entre Dos Caminos",
+            "genero": "Drama",
+            "duracion": 133,
+            "clasificacion": "B15",
+            "idioma": "Subtitulada",
+            "fecha_estreno": "2026-10-02",
+            "fecha_fin": "2026-12-28",
+            "funciones": [
+                {
+                    "codigo_funcion": "F090",
+                    "horario": "18:30",
+                    "sala": "Sala 9",
+                    "filas": 6,
+                    "columnas": 7,
+                    "archivo_asientos": ""
+                },
+                {
+                    "codigo_funcion": "F107",
+                    "horario": "20:00",
+                    "sala": "Sala 16",
+                    "filas": 7,
+                    "columnas": 6,
+                    "archivo_asientos": ""
+                }
+            ]
+        },
+        {
+            "codigo": "P107",
+            "titulo": "Rambo",
+            "genero": "Acción",
+            "duracion": 155,
+            "clasificacion": "C",
+            "idioma": "Doblada",
+            "fecha_estreno": "2026-10-02",
+            "fecha_fin": "2026-12-28",
+            "funciones": [
+                {
+                    "codigo_funcion": "F408",
+                    "fecha": "2026-12-09",
+                    "horario": "22:00",
+                    "sede": "S010",
+                    "sala": "Sala 5",
+                    "filas": 10,
+                    "columnas": 20,
+                    "archivo_asientos": ""
+                },
+                {
+                    "codigo_funcion": "F409",
+                    "fecha": "2026-12-18",
+                    "horario": "18:30",
+                    "sede": "S014",
+                    "sala": "Sala 1",
+                    "filas": 16,
+                    "columnas": 22,
+                    "archivo_asientos": ""
+                }
+            ]
+        },
+        {
+            "codigo": "P214",
+            "titulo": "Operación Eclipse",
+            "genero": "Acción",
+            "duracion": 142,
+            "clasificacion": "B15",
+            "idioma": "Subtitulada",
+            "fecha_estreno": "2026-10-02",
+            "fecha_fin": "2026-12-28",
+            "funciones": [
+                {
+                    "codigo_funcion": "F411",
+                    "fecha": "2026-10-29",
+                    "horario": "16:00",
+                    "sede": "S001",
+                    "sala": "Sala 2",
+                    "filas": 12,
+                    "columnas": 20,
+                    "archivo_asientos": ""
+                },
+                {
+                    "codigo_funcion": "F412",
+                    "fecha": "2026-11-01",
+                    "horario": "19:30",
+                    "sede": "S005",
+                    "sala": "Sala 1",
+                    "filas": 10,
+                    "columnas": 22,
+                    "archivo_asientos": ""
+                }
+            ]
+        },
+        {
+            "codigo": "P237",
+            "titulo": "Ruta de Fuego",
+            "genero": "Acción",
+            "duracion": 128,
+            "clasificacion": "C",
+            "idioma": "Doblada",
+           "fecha_estreno": "2026-10-02",
+            "fecha_fin": "2026-12-28",
+            "funciones": [
+                {
+                    "codigo_funcion": "F413",
+                    "fecha": "2026-11-05",
+                    "horario": "21:00",
+                    "sede": "S001",
+                    "sala": "Sala 4",
+                    "filas": 14,
+                    "columnas": 18,
+                    "archivo_asientos": ""
+                },
+                {
+                    "codigo_funcion": "F414",
+                    "fecha": "2026-11-08",
+                    "horario": "15:00",
+                    "sede": "S005",
+                    "sala": "Sala 3",
+                    "filas": 12,
+                    "columnas": 20,
+                    "archivo_asientos": ""
+                }
+            ]
+        },
+        {
+            "codigo": "P252",
+            "titulo": "Misión Imparable",
+            "genero": "Acción",
+            "duracion": 136,
+            "clasificacion": "B15",
+            "idioma": "Español",
+            "fecha_estreno": "2026-10-02",
+            "fecha_fin": "2026-12-28",
+            "funciones": [
+                {
+                    "codigo_funcion": "F415",
+                    "fecha": "2026-11-12",
+                    "horario": "18:30",
+                    "sede": "S001",
+                    "sala": "Sala 2",
+                    "filas": 15,
+                    "columnas": 20,
+                    "archivo_asientos": ""
+                },
+                {
+                    "codigo_funcion": "F416",
+                    "fecha": "2026-11-16",
+                    "horario": "20:00",
+                    "sede": "S005",
+                    "sala": "Sala 5",
+                    "filas": 10,
+                    "columnas": 18,
+                    "archivo_asientos": ""
+                }
+            ]
+        },
+        {
+            "codigo": "P281",
+            "titulo": "Zona de Impacto",
+            "genero": "Acción",
+            "duracion": 131,
+            "clasificacion": "B",
+            "idioma": "Subtitulada",
+            "fecha_estreno": "2026-10-02",
+            "fecha_fin": "2026-12-28",
+            "funciones": [
+                {
+                    "codigo_funcion": "F417",
+                    "fecha": "2026-11-22",
+                    "horario": "17:30",
+                    "sede": "S001",
+                    "sala": "Sala 2",
+                    "filas": 14,
+                    "columnas": 20,
+                    "archivo_asientos": ""
+                },
+                {
+                    "codigo_funcion": "F418",
+                    "fecha": "2026-12-01",
+                    "horario": "19:00",
+                    "sede": "S005",
+                    "sala": "Sala 1",
+                    "filas": 12,
+                    "columnas": 22,
+                    "archivo_asientos": ""
+                }
+            ]
+        },
+        {
+            "codigo": "P296",
+            "titulo": "El Escuadron Final",
+            "genero": "Acción",
+            "duracion": 145,
+            "clasificacion": "C",
+            "idioma": "Doblada",
+           "fecha_estreno": "2026-10-02",
+            "fecha_fin": "2026-12-28",
+            "funciones": [
+                {
+                    "codigo_funcion": "F419",
+                    "fecha": "2026-12-10",
+                    "horario": "21:30",
+                    "sede": "S001",
+                    "sala": "Sala 3",
+                    "filas": 16,
+                    "columnas": 20,
+                    "archivo_asientos": ""
+                },
+                {
+                    "codigo_funcion": "F420",
+                    "fecha": "2026-12-11",
+                    "horario": "18:00",
+                    "sede": "S005",
+                    "sala": "Sala 4",
+                    "filas": 12,
+                    "columnas": 18,
+                    "archivo_asientos": ""
+                }
+            ]
+        },
+        {
+            "codigo": "P223",
+            "titulo": "Tormenta de Acero",
+            "genero": "Acción",
+            "duracion": 138,
+            "clasificacion": "B15",
+            "idioma": "Doblada",
+            "fecha_estreno": "2026-10-02",
+            "fecha_fin": "2026-12-28",
+            "funciones": [
+                {
+                    "codigo_funcion": "F501",
+                    "fecha": "2026-10-29",
+                    "horario": "18:00",
+                    "sede": "S006",
+                    "sala": "Sala 1",
+                    "filas": 10,
+                    "columnas": 20,
+                    "archivo_asientos": ""
+                },
+                {
+                    "codigo_funcion": "F502",
+                    "fecha": "2026-11-01",
+                    "horario": "21:00",
+                    "sede": "S012",
+                    "sala": "Sala 3",
+                    "filas": 12,
+                    "columnas": 18,
+                    "archivo_asientos": ""
+                },
+                {
+                    "codigo_funcion": "F503",
+                    "fecha": "2026-11-05",
+                    "horario": "19:30",
+                    "sede": "S009",
+                    "sala": "Sala 2",
+                    "filas": 14,
+                    "columnas": 20,
+                    "archivo_asientos": ""
+                }
+            ]
+        },
+        {
+            "codigo": "P247",
+            "titulo": "Objetivo Final",
+            "genero": "Acción",
+            "duracion": 126,
+            "clasificacion": "C",
+            "idioma": "Subtitulada",
+            "fecha_estreno": "2026-10-02",
+            "fecha_fin": "2026-12-28",
+            "funciones": [
+                {
+                    "codigo_funcion": "F504",
+                    "fecha": "2026-11-09",
+                    "horario": "22:00",
+                    "sede": "S012",
+                    "sala": "Sala 4",
+                    "filas": 10,
+                    "columnas": 22,
+                    "archivo_asientos": ""
+                },
+                {
+                    "codigo_funcion": "F505",
+                    "fecha": "2026-11-13",
+                    "horario": "17:30",
+                    "sede": "S009",
+                    "sala": "Sala 1",
+                    "filas": 16,
+                    "columnas": 20,
+                    "archivo_asientos": ""
+                },
+                {
+                    "codigo_funcion": "F506",
+                    "fecha": "2026-11-18",
+                    "horario": "20:30",
+                    "sede": "S001",
+                    "sala": "Sala 5",
+                    "filas": 12,
+                    "columnas": 18,
+                    "archivo_asientos": ""
+                }
+            ]
+        },
+        {
+            "codigo": "P289",
+            "titulo": "Fuerza de Impacto",
+            "genero": "Acción",
+            "duracion": 144,
+            "clasificacion": "B15",
+            "idioma": "Español",
+            "fecha_estreno": "2026-10-02",
+            "fecha_fin": "2026-12-28",
+            "funciones": [
+                {
+                    "codigo_funcion": "F507",
+                    "fecha": "2026-11-24",
+                    "horario": "21:30",
+                    "sede": "S001",
+                    "sala": "Sala 3",
+                    "filas": 14,
+                    "columnas": 18,
+                    "archivo_asientos": ""
+                },
+                {
+                    "codigo_funcion": "F508",
+                    "fecha": "2026-12-02",
+                    "horario": "18:30",
+                    "sede": "S005",
+                    "sala": "Sala 2",
+                    "filas": 10,
+                    "columnas": 20,
+                    "archivo_asientos": ""
+                },
+                {
+                    "codigo_funcion": "F509",
+                    "fecha": "2026-12-08",
+                    "horario": "22:15",
+                    "sede": "S007",
+                    "sala": "Sala 4",
+                    "filas": 16,
+                    "columnas": 22,
+                    "archivo_asientos": ""
+                }
+            ]
+        }
+    ]
+}
